@@ -4,24 +4,25 @@ programa
 	funcao inicio()
 	{	
 
-		escreva("Area do triangulo!\n")
+		escreva("Area do Circulo!\n")
 
-		inteiro base, altura
+		real circulo, r
+		real pi= 3.14
 
-		escreva("informe a altura do triangulo:")
-		leia(altura)
-		escreva("informe a base do triangulo:")
-		leia(base)
+		escreva("insira o valor de r : ")
+		leia(r)
 
-		escreva("O valor da base do triangulo é :"+ (base * altura)*2)
+
+		escreva("a area do circulo é " + pi*(r*r))
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 113; 
+ * @POSICAO-CURSOR = 200; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

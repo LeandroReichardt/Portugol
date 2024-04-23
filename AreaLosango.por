@@ -2,18 +2,18 @@ programa
 {
 	
 	funcao inicio()
-	{	
-
-		escreva("Area do triangulo!\n")
-
-		inteiro base, altura
-
-		escreva("informe a altura do triangulo:")
-		leia(altura)
-		escreva("informe a base do triangulo:")
-		leia(base)
-
-		escreva("O valor da base do triangulo é :"+ (base * altura)*2)
+	{
+		escreva("Area do Losango!\n")
+		
+		inteiro diagonalMaior , diagonalMenor
+		
+		escreva("escreva a diagonal maior : ")
+		leia(diagonalMaior)
+		
+		escreva("escreva a diagonal menor : ")
+		leia(diagonalMenor)
+		
+		escreva("a area do losango é : " +diagonalMaior*diagonalMenor/2)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 113; 
+ * @POSICAO-CURSOR = 247; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

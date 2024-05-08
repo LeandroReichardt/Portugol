@@ -30,24 +30,18 @@ programa
 		
 		calculo = (valor1 + valor2) /2
 		se(calculo >= 9.5){
-				escreva("A mÈdia È parabÈns: ",calculo,"\n")
+				escreva("A m√©dia √© parab√©ns: ",calculo,"\n")
 		} senao {
-		escreva("A mÈdia foi ",calculo," n„o passou \n")
+		escreva("A m√©dia foi ",calculo," n√£o passou \n")
 			}
 
-		escreva("Deseja fazer a mÈdia de outro aluno? se sim digite s sen„o n \n")
+		escreva("Deseja fazer a m√©dia de outro aluno? se sim digite s sen√£o n \n")
 		leia(s)
-
-		se(s == s){
+		se(s == "s"){
 			inicio()
 		}
-		senao se(s != s){
-			escreva("programa finalizado")
-
-			escreva("Deseja fazer a mÈdia de outro aluno? se sim digite s sen„o n \n")
-		leia(s)
-
-			
+		senao se(s != "s"){
+			escreva("programa finalizado")	
 		}
 		
 	}
